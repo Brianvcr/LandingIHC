@@ -1,0 +1,89 @@
+body{
+    background: EEEEEE;
+    font-family: 'Quicksand', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background: #253A8F;
+    height: 80px;
+    width: 100%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: #EEEEEE;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+
+li a.active, li a:hover{
+    background: #009FE3;
+    transition: .5s;
+}
+
+section.HighBox{
+    background: linear-gradient(to left, rgb(51, 72, 167), rgb(79, 176, 231));
+    padding: 3rem 0;
+}
+
+.HighBoxAB{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem 1fr));
+
+}
+
+.HighBoxA{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HighBoxB{
+    padding:1rem 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+li b{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;}
+
+.btnConocerMas{
+    background: #525563;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+}
